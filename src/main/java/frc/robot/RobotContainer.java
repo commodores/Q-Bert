@@ -19,7 +19,9 @@ import frc.robot.subsystems.*;
  */
 public class RobotContainer {
     /* Controllers */
+    /* Added port one for secondary 1/22 */
     private final Joystick driver = new Joystick(0);
+    private final Joystick driver2 = new Joystick(1);
 
     /* Drive Controls */
     private final int translationAxis = XboxController.Axis.kLeftY.value;
@@ -30,9 +32,15 @@ public class RobotContainer {
     private final JoystickButton zeroGyro = new JoystickButton(driver, XboxController.Button.kY.value);
     private final JoystickButton robotCentric = new JoystickButton(driver, XboxController.Button.kLeftBumper.value);
 
-    /* Subsystems */
-    private final Swerve s_Swerve = new Swerve();
+    /* TEST TEST TEST Driver Command Buttons JUST A TEST TEST TEST TEST 1/22 */
+    //private final JoystickButton shootButton = new JoystickButton(driver2, XboxController.Button.kX.value) ;
 
+    /* Subsystems */
+    /* Added Subsystems 1/22 */
+    private final Swerve s_Swerve = new Swerve();
+   // private final Intake Intake = new Intake();
+   // private final Climber m_climber = new Climber();
+    //private
 
     /** The container for the robot. Contains subsystems, OI devices, and commands. */
     public RobotContainer() {
