@@ -6,9 +6,9 @@ package frc.robot.commands;
 
 import edu.wpi.first.wpilibj2.command.Command;
 
-public class IntakeIn extends Command {
+public class IntakeOn extends Command {
   /** Creates a new IntakeIn. */
-  public IntakeIn() {
+  public IntakeOn() {
     // Use addRequirements() here to declare subsystem dependencies.
   }
 
