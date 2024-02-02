@@ -10,6 +10,7 @@ public class IntakeOn extends Command {
   /** Creates a new IntakeIn. */
   public IntakeOn() {
     // Use addRequirements() here to declare subsystem dependencies.
+    
   }
 
   // Called when the command is initially scheduled.
