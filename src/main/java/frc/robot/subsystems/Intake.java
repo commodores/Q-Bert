@@ -8,7 +8,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import frc.robot.Constants;
 
-/* import com.revrobotics.CANSparkMax;
+import com.revrobotics.CANSparkMax;
 import com.revrobotics.CANSparkMax.IdleMode;
 import com.revrobotics.CANSparkMaxLowLevel.MotorType;
 
@@ -18,7 +18,7 @@ public class Intake extends SubsystemBase {
   private final CANSparkMax intakeOuterMotor;
 
   /** Creates a new Intake. */
-  /*public Intake() {
+  public Intake() {
 
     intakeInnerMotor = new CANSparkMax(Constants.IntakeConstants.intakeInner, MotorType.kBrushless);
     intakeInnerMotor.restoreFactoryDefaults();
@@ -42,4 +42,4 @@ public class Intake extends SubsystemBase {
   }
 
  
-} */
+} 
