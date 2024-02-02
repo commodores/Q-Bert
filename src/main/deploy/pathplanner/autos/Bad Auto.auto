@@ -1,12 +1,6 @@
 {
   "version": 1.0,
-  "startingPose": {
-    "position": {
-      "x": 2,
-      "y": 2
-    },
-    "rotation": 12.568538852202522
-  },
+  "startingPose": null,
   "command": {
     "type": "sequential",
     "data": {
@@ -15,18 +9,6 @@
           "type": "path",
           "data": {
             "pathName": "Example Path"
-          }
-        },
-        {
-          "type": "wait",
-          "data": {
-            "waitTime": 0.0
-          }
-        },
-        {
-          "type": "named",
-          "data": {
-            "name": "poop"
           }
         }
       ]
