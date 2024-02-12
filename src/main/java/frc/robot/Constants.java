@@ -136,6 +136,61 @@ public final class Constants {
         public static final int intakeInner = 4;
      }
 
+     public static final class ShooterConstants(){
+       // public static final int shooterLeft =
+       // public static final int shooterRight =
+        //public static final int shooterAngle =
+        //public static final int shooterFeeder =
+
+
+            // PID coefficients for Shooter
+        public static final double shooterAngleKP = 0.0000; 
+        public static final double shooterAngleKI = 0.00000;
+        public static final double shooterAngleKD = 0; 
+        public static final double shooterAngleKIz = 0; 
+        public static final double shooterAngleKFF = 0.0003; 
+        public static final double shooterKMaxOutput = 1; 
+        public static final double shooterAngleKMinOutput = -1;
+        public static final double shooterAngleMaxRPM = 5700;
+
+        
+
+     }
+
+     public static final class ArmTrapConstants(){
+
+      //  public static final int ampLeft =
+
+
+
+        // PID coefficients for AMP/Trap
+        public static final double ampLeftKP = 0; 
+        public static final double ampLeftKI = 0.000000;
+        public static final double ampLeftKD = 0.0000; 
+        public static final double ampLeftKIz = 0; 
+        public static final double ampLeftKFF = 0.0004;
+        public static final double ampLeftKMaxOutput = 1; 
+        public static final double ampLeftKMinOutput = -1;
+        public static final double ampLeftMaxRPM = 5700;
+     }
+
+     public static final class ClimberConstants(){
+        //public static final int climberCenter =
+
+        
+
+         // PID coefficients for Climber
+         public static final double climberCenterKP = 0; 
+         public static final double climberCenterKI = 0.000000;
+         public static final double climbCenterKD = 0.0000; 
+         public static final double climbCenterKIz = 0; 
+         public static final double climbCenterKFF = 0.0004;
+         public static final double climbCenterKMaxOutput = 1; 
+         public static final double climbCenterKMinOutput = -1;
+         public static final double climbCenterMaxRPM = 5700;
+                 
+
+     }
 
     public static final class AutoConstants { //TODO: The below constants are used in the example auto, and must be tuned to specific robot
         public static final double kMaxSpeedMetersPerSecond = 3;
